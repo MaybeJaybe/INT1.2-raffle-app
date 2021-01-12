@@ -4,11 +4,11 @@ body {
   font-family: 'Baumans';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #CDC1FF;
 }
 #background {
   width: 100vw;
   min-height: 100vh;
-  background-color: #CDC1FF;
 }
 code {
   font-family: 'Baumans';

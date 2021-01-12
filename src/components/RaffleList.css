@@ -1,40 +1,93 @@
+.Form {
+    font-family: 'Baumans';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.AddForm {
+    display: flex;
+    flex-direction: row;
+}
 .AddName {
     font-family: 'Baumans';
     font-size: 16px;
     border: 1px solid;
     border-radius: 8px;
-    padding: 1em;
+    outline: none;
+    padding: .5em;
+    margin-left: 1.5em;
+    height: 2em;
+    width: 250px;
     background-color: rgb(248, 245, 255);
 }
 .AddButton {
     font-family: 'Baumans';
     border: 1px solid;
     border-radius: 50%;
-    margin: 1em;
-    padding: .25em .6em .5em .6em;
+    outline: none;
+    margin-left: 5px;
+    padding: .25em .7em .5em .7em;
     font-size: 20px;
+    transition-duration: 0.5s;
     background-color: rgb(248, 245, 255);
+}
+.AddButton:hover {
+    background-color: #674d8f;
+    opacity: 0.7;
+    color: rgb(248, 245, 255);
+}
+.List {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-bottom: 1em;
 }
 .RemoveButton {
     font-family: 'Baumans';
     font-size: 20px;
     border: 1px solid;
     border-radius: 8px;
-    margin: .5em;
-    padding: 0 1em;
+    outline: none;
+    background-color: rgb(248, 245, 255);
+}
+.RemoveButton:hover {
+    background-color: #674d8f;
+    opacity: 0.7;
+    color: rgb(248, 245, 255);
+}
+.NameList {
+    color: black;
+    font-size: 1.2em;
+    padding: 1em;
+    padding-right: 0;
+    border: 1px solid;
+    border-radius: 8px;
+    width: 350px;
+    margin: auto;
+    margin-right: 5px;
+    padding: .5em;
     background-color: rgb(248, 245, 255);
 }
 .RaffleButton {
     font-family: 'Baumans';
     font-size: 20px;
-    padding: .5em;
-    margin: 1em;
+    padding: .5em 1em;
+    margin: 1em 3em;
     border: 1px solid;
     border-radius: 8px;
+    outline: none;
     background-color: rgb(248, 245, 255);
 }
+.RaffleButton:hover {
+    background-color: #674d8f;
+    opacity: 0.7;
+    color: rgb(248, 245, 255);
+}
 .Result {
-    font-size: 20px;
+    font-size: 25px;
     letter-spacing: 1px;
     padding: 1em;
+}
+.DisplayWinner {
+    font-size: 35px;
 }
