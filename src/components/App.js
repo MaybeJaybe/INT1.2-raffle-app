@@ -1,15 +1,13 @@
 import React from 'react';
-
 import Header from './Header';
-import AddName from './AddName';
-
+import RaffleList from './RaffleList';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <Header/>
-      <AddName/>
+      <RaffleList/>
     </div>
   );
 }

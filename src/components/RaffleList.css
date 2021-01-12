@@ -1,0 +1,40 @@
+.AddName {
+    font-family: 'Baumans';
+    font-size: 16px;
+    border: 1px solid;
+    border-radius: 8px;
+    padding: 1em;
+    background-color: rgb(248, 245, 255);
+}
+.AddButton {
+    font-family: 'Baumans';
+    border: 1px solid;
+    border-radius: 50%;
+    margin: 1em;
+    padding: .25em .6em .5em .6em;
+    font-size: 20px;
+    background-color: rgb(248, 245, 255);
+}
+.RemoveButton {
+    font-family: 'Baumans';
+    font-size: 20px;
+    border: 1px solid;
+    border-radius: 8px;
+    margin: .5em;
+    padding: 0 1em;
+    background-color: rgb(248, 245, 255);
+}
+.RaffleButton {
+    font-family: 'Baumans';
+    font-size: 20px;
+    padding: .5em;
+    margin: 1em;
+    border: 1px solid;
+    border-radius: 8px;
+    background-color: rgb(248, 245, 255);
+}
+.Result {
+    font-size: 20px;
+    letter-spacing: 1px;
+    padding: 1em;
+}
